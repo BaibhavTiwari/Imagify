@@ -115,3 +115,6 @@ img {
     text-align: center;
     margin-top: 1rem;
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
