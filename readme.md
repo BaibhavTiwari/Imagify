@@ -2,7 +2,7 @@
 
 This is a simple image generator built with Node.js and Express that uses [OpenAI's Dall-E models](https://beta.openai.com/docs/guides/images) to generate images.
 
-<img src="public/img/screen.png" width="500">
+<img src ="https://user-images.githubusercontent.com/75496387/210049156-05e43aec-e1ef-47a8-937e-6dd9f686a7ab.png" width="500">
 
 ## Usage
 
@@ -14,7 +14,7 @@ Install the dependencies
 npm install
 ```
 
-TO start the server run the following command in your terminal
+To start the server run the following command in your terminal
 
 ```bash
 npm start
