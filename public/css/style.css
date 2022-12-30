@@ -9,21 +9,21 @@
 }
 
 :root {
-    --primary-color: #f9b64d;
+    --primary-color: #000c11b7;
 }
 
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    color: #333;
-    background: #f4f4f4;
+    color: #beef00;
+    background-color: var(--primary-color);
 }
 
 /* Navbar */
 .navbar {
-    background: #333;
-    color: #fff;
+    background: #000c11b7;
+    color:#beef00;
     padding: 1rem;
     display: flex;
     justify-content: space-between;
@@ -37,19 +37,19 @@ body {
 
 .navbar ul li {
     margin-left: 1rem;
-}
+} 
 
-.navbar a {
-    color: #fff;
+ .navbar a {
+    color: #beef00;
     text-decoration: none;
     font-size: 1.2rem;
-}
+} 
 
-.navbar a:hover {
+/* .navbar a:hover {
     color: var(--primary-color);
-}
+} */
 
-/* Showcase */
+
 .showcase {
     height: 450px;
     width: 100%;
@@ -58,7 +58,7 @@ body {
 
 .showcase h1 {
     font-size: 2.5rem;
-    color: #333;
+    color: #beef00;
     text-align: center;
     padding: 1rem 0;
 }
@@ -88,8 +88,8 @@ form button {
     padding: 1rem 2rem;
     border: none;
     border-radius: 5px;
-    background: #333;
-    color: #fff;
+    background: #beef00;
+    color: var(--primary-color);
     cursor: pointer;
     margin-top: 20px;
 }
@@ -115,6 +115,3 @@ img {
     text-align: center;
     margin-top: 1rem;
 }
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
